@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './index.css'
 import StarRating from './components/StarRating'
 
 function App() {
