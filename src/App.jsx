@@ -1,11 +1,12 @@
 import { useState } from 'react'
-import StarRating from './components/StarRating'
+import Rating from './components/Rating'
 
 function App() {
 
   return (
     <div className="App">
-      <StarRating />
+      <h4>Rating</h4>
+      <Rating  value={1.5}/>
     </div>
   )
 }
